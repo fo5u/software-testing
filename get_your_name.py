@@ -1,16 +1,17 @@
-
-
 class Name():
-    def __init__(self,user_name):
-        self.user_name = "aleksandr"
+    def __init__(self):
+        self.user_name = "Aleksandr"
 
 
     def znachenie():
-
-        my_list.append(number_input)
-        result = float(sum(my_list))/ len(my_list)
+        u_input = input("Enter numbers separated by comas:")
+        chisla = []
+        chisla.append(u_input)
+        result = sum(chisla)/len(chisla)
         print result
-r = Name()
-print r.znachenie()
+u = Name()
+print u.user_name
+
+
 
 
